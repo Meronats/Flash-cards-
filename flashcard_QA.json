@@ -1,55 +1,85 @@
 [
-	{
-		"q": "<h3>What is JSON?</h3>",
-		"a": "<p>JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.</p>",
-		"link": "https://www.toptal.com/javascript/interview-questions",
-		"category": "javascript"
-	},{
-		"q": "<h3>What is the differnce between <br>== and ===?</h3>",
-		"a": "'==' allows for coersion</p>",
-		"link": "https://www.toptal.com/javascript/interview-questions",
-		"category": "javascript"
-	},{
-        "q": "<h3>What is the differnce between null and undefined?</h3>",
-        "a": "Null is an object. Undefined is when you decalre a variable but don't assign it.",
+    {
+        "q": "<h3>What is OOP?</h3>",
+        "a": "<p>Object-Oriented Programming (OOP) is a programming paradigm that structures code into reusable objects, each encapsulating data and behavior.</p>",
         "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is a Global variable?</h3>",
-        "a": "Global variables live as long as your application lives. Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.",
+        "category": "OOP"
+    },{
+        "q": "<h3>Diff between '==' and '===' in OOP?</h3>",
+        "a": "<p>'==' coerces types; '===' enforces strict equality in the context of Object-Oriented Programming (OOP).</p>",
         "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
- 
-      },{
-        "q": "<h3>What does this refer to in Javascript?</h3>",
-        "a": "The value of this, when used in a function, is the object that 'owns' the function. This is defined in the context in which it is called.",
+        "category": "OOP"
+    },{
+        "q": "<h3>Null vs. Undefined in OOP?</h3>",
+        "a": "<p>In the world of Object-Oriented Programming (OOP), null signifies intentional absence, while undefined occurs when a property is not assigned.</p>",
         "link": "https://www.toptal.com/javascript/interview-questions",
-        "category": "javascript"
- 
-      },{
-        "q": "<h3>What is a closure?</h3>",
-        "a": "It makes it possible for a function to have 'private' variables. Inner variables are protected by the scope of an anonymous function, and can only be changed using the parent function.",
+        "category": "OOP"
+    },{
+        "q": "<h3>Global variable in OOP?</h3>",
+        "a": "<p>A Global variable in Object-Oriented Programming (OOP) persists throughout the application, accessible from various parts of the program.</p>",
+        "link": "https://www.toptal.com/javascript/interview-questions",
+        "category": "OOP"
+    },{
+        "q": "<h3>'this' in OOP?</h3>",
+        "a": "<p>In Object-Oriented Programming (OOP), 'this' refers to the object that owns the function, its value determined by the calling context.</p>",
+        "link": "https://www.toptal.com/javascript/interview-questions",
+        "category": "OOP"
+    },{
+        "q": "<h3>Closure in OOP?</h3>",
+        "a": "<p>In Object-Oriented Programming (OOP), a closure allows functions to have 'private' variables, protected by the scope of an anonymous function.</p>",
         "link": "https://www.w3schools.com/js/js_function_closures.asp",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is encapsulation?</h3>",
-        "a": "Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.",
+        "category": "OOP"
+    },{
+        "q": "<h3>Encapsulation in OOP?</h3>",
+        "a": "<p>Encapsulation in Object-Oriented Programming (OOP) involves objects serving as containers for properties and methods, promoting data hiding.</p>",
         "link": "http://stackoverflow.com/questions/3597087/encapsulation-in-javascript",
-        "category": "javascript"
-      },{
-        "q": "<h3>What does the term headless mean?</h3>",
-        "a": "Without a graphical display.",
+        "category": "OOP"
+    },{
+        "q": "<h3>'Headless' in OOP?</h3>",
+        "a": "<p>In Object-Oriented Programming (OOP), 'headless' means operating without a graphical display or user interface.</p>",
         "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
-        "category": "javascript"
-      },{
-        "q": "<h3>What is namespacing?</h3>",
-        "a": "Namespacing is a technique employed to avoid collisions with other objects or variables in the global namespace.",
+        "category": "OOP"
+    },{
+        "q": "<h3>Namespacing in OOP?</h3>",
+        "a": "<p>Namespacing in Object-Oriented Programming (OOP) is a technique to avoid collisions with other objects or variables in the global namespace, ensuring a clear and organized structure.</p>",
         "link": "http://stackoverflow.com/questions/4647719/what-does-headless-mean",
-        "category": "javascript"
-      },{
-        "q": "<h3>What are modules?</h3>",
-        "a": "Like a book chapter, modules are just clusters of words (or code, as the case may be). Anonymous closure, global import, Object Interface, Reveal module",
+        "category": "OOP"
+    },{
+        "q": "<h3>Modules in OOP?</h3>",
+        "a": "<p>Modules in Object-Oriented Programming (OOP) are code clusters organizing patterns like closure and import, providing a structured approach to code organization.</p>",
         "link": "https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc",
-        "category": "javascript"
-      }
+        "category": "OOP"
+    },
+    {
+        "q": "<h3>What is Polymorphism in OOP?</h3>",
+        "a": "<p>Polymorphism in Object-Oriented Programming (OOP) allows objects to take multiple forms based on context, enhancing flexibility and extensibility.</p>",
+        "link": "https://www.javatpoint.com/polymorphism-in-java",
+        "category": "OOP"
+    },{
+        "q": "<h3>What is Inheritance in OOP?</h3>",
+        "a": "<p>Inheritance in Object-Oriented Programming (OOP) enables a class to inherit properties and methods from another class, promoting code reuse and hierarchy.</p>",
+        "link": "https://www.javatpoint.com/inheritance-in-java",
+        "category": "OOP"
+    },{
+        "q": "<h3>What is Abstraction in OOP?</h3>",
+        "a": "<p>Abstraction in Object-Oriented Programming (OOP) focuses on showing essential features while hiding unnecessary details, simplifying complex systems for better understanding.</p>",
+        "link": "https://www.javatpoint.com/java-abstraction",
+        "category": "OOP"
+    },
+    {
+        "q": "<h3>What is Composition in OOP?</h3>",
+        "a": "<p>Composition in Object-Oriented Programming (OOP) involves constructing classes using instances of other classes, promoting code organization and modularity.</p>",
+        "link": "https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose",
+        "category": "OOP"
+    },{
+        "q": "<h3>What is Encapsulation in OOP?</h3>",
+        "a": "<p>Encapsulation in Object-Oriented Programming (OOP) involves bundling data and methods that operate on the data, controlling access to the internal state of an object.</p>",
+        "link": "https://stackify.com/oop-concept-for-beginners-what-is-encapsulation/",
+        "category": "OOP"
+    },{
+        "q": "<h3>What is Interface in OOP?</h3>",
+        "a": "<p>An interface in Object-Oriented Programming (OOP) defines a contract for classes, specifying a set of methods that must be implemented, promoting code consistency and flexibility.</p>",
+        "link": "https://docs.oracle.com/javase/tutorial/java/concepts/interface.html",
+        "category": "OOP"
+    }
 ]
