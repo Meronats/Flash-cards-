@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vanilla Javascript: Propagation and Binding</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/deck.css">
+	<link rel="stylesheet" type="text/css" href="./css/animation.css">
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+	<section id="game_div"></section>
+	<footer></footer>
+	<script type="text/javascript" src="./flashcard_QA.json"></script>
+	<script type="text/javascript" src="./main.js"></script>
+	<script type="text/javascript">
+		(function () {
+
+				fetch('./flashcard_QA.json').then(function (response) {
+					// The API call was successful!
+					return response.json();
+				}).then(function (data) {
+					var flashcard_QA = data;
+					var myGame = new Game("game_div", { game: "flascard", data: flashcard_QA });
+
+				}).catch(function (err) {
+					console.warn('Something went wrong.', err);
+				});
+
+			})()
+	</script>
+</body>
+</html>
